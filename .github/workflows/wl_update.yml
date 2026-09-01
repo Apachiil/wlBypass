@@ -1,0 +1,154 @@
+name: wlBypass Update
+
+on:
+  schedule:
+    - cron: '19 * * * *'
+  repository_dispatch:
+    types: [external-trigger]
+  workflow_dispatch:
+
+concurrency:
+  group: wlbypass-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Update white lists
+        id: prepare
+        run: |
+          set -euo pipefail
+
+          # === Output ===
+          OUTPUT_DIR="list"
+          mkdir -p "$OUTPUT_DIR"
+
+          # === Links ===
+          # Формат: "NAME|URL_SOURCE|URL_RAW"
+          URLS=(
+              "igareck|https://github.com/igareck/vpn-configs-for-russia|https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt"
+              "zieng2|https://github.com/zieng2/wl|https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt"
+              "wlrus.lol|None|https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt"
+              # "AvenCores|https://github.com/AvenCores/goida-vpn-configs|https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt"
+              # "CidVpn|https://github.com/CidVpn/cid-vpn-config|https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt"
+              
+              # (Не актуально)
+              # "ByeWhiteLists2|https://github.com/ByeWhiteLists/ByeWhiteLists2|https://raw.githubusercontent.com/ByeWhiteLists/ByeWhiteLists2/main/ByeWhiteLists2.txt"
+              # "GhostVPN|https://github.com/SilentGhostCodes/WhiteListVpn|https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/main/Whitelist.txt"
+          )
+
+          # === Obtaining WL ===
+          for ENTRY in "${URLS[@]}"; do
+              IFS='|' read -r NAME URL_SOURCE URL_RAW <<< "$ENTRY"
+              
+              if [[ -z "$NAME" || -z "$URL_SOURCE" || -z "$URL_RAW" ]]; then
+                  echo "----------------------------------------"
+                  echo "🔴 ERROR: Invalid record format: $ENTRY"
+                  echo "The format should be: NAME|URL_SOURCE|URL_RAW"
+                  echo "----------------------------------------"
+                  continue
+              fi
+              
+              OUTPUT_FILE="wlb_${NAME}.txt"
+              OUTPUT="$OUTPUT_DIR/$OUTPUT_FILE"
+              
+              echo "----------------------------------------"
+              echo "🔵 Processing: $NAME"
+              
+              # --- Очистка файла ---
+              rm -f "$OUTPUT"
+              
+              TEMP_FILE=$(mktemp)
+              
+              # --- Заголовок ---
+              {
+                  echo "# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####"
+                  echo "# profile-title: wlBypass ${NAME}"
+                  echo "# profile-update-interval: 1"
+                  echo "# announce: 💜💜💜"
+                  echo "# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####"
+                  echo ""
+                  echo "# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####"
+                  echo "# ---> Comment: wlBypass by 4qLA---"
+                  echo "# ---> Update: $(TZ='Asia/Yekaterinburg' date '+%H:%M:%S [GMT%z] | %d.%m.%Y')"
+                  echo "# ---> Source: ${URL_SOURCE#*://}"
+                  echo "# ---> RAW: ${URL_RAW#*://}"
+                  echo "# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####"
+                  echo ""
+              } >> "$TEMP_FILE"
+
+              # --- Коммент ---
+              {
+                  echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#💜БЕЛЫЕ_СПИСКИ_НИЖЕ💜"
+                  echo ""
+              } >> "$TEMP_FILE"
+              
+              # --- Данные из URL_RAW (Убрано все кроме конфигов) ---
+              HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout 10 --max-time 20 "$URL_RAW" || echo "000")
+              if [[ "$HTTP_CODE" =~ ^[2][0-9][0-9]$ ]]; then
+                  curl -s "$URL_RAW" | grep -v '^#' | grep -v '^[[:space:]]*$' >> "$TEMP_FILE"
+                  echo "       🟢 Ok [HTTP $HTTP_CODE]"
+              else
+                  echo "       🔴 Fail [HTTP $HTTP_CODE]"
+              fi
+              
+              # --- Созданный файл ---
+              cat "$TEMP_FILE" > "$OUTPUT"
+              
+              rm -f "$TEMP_FILE"
+              
+              echo "----------------------------------------"
+          done
+
+          # --- Check if files changed ---
+          git -C "$GITHUB_WORKSPACE" add list/
+
+          if git -C "$GITHUB_WORKSPACE" diff --cached --quiet; then
+            echo "No changes detected"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Changes detected"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push if changed
+        if: steps.prepare.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+
+          git add list/
+
+          git commit -m "Auto-update white lists $(TZ='Asia/Yekaterinburg' date '+%H:%M:%S [GMT%z] | %d.%m.%Y')"
+          
+          # Пушим обратно в GitHub
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
+          echo "🟢 Changes committed and pushed"
+
+      - name: Create release tag
+        if: steps.prepare.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          TAG_NAME="Update-$(TZ='Asia/Yekaterinburg' date '+%H.%M.%S_GMT%z_%d.%m.%Y')"
+          git tag "$TAG_NAME"
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$TAG_NAME"
+          echo "🟢 Tag created: $TAG_NAME"
