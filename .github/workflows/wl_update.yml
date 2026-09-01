@@ -3,8 +3,6 @@ name: wlBypass Update
 on:
   # schedule:
   #   - cron: '19 * * * *'
-  repository_dispatch:
-    types: [external-trigger]
   workflow_dispatch:
 
 concurrency:
