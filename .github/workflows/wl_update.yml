@@ -1,8 +1,8 @@
 name: wlBypass Update
 
 on:
-  schedule:
-    - cron: '19 * * * *'
+  # schedule:
+  #   - cron: '19 * * * *'
   repository_dispatch:
     types: [external-trigger]
   workflow_dispatch:
@@ -41,8 +41,8 @@ jobs:
               "igareck|https://github.com/igareck/vpn-configs-for-russia|https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt"
               "zieng2|https://github.com/zieng2/wl|https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt"
               "wlrus.lol|None|https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt"
-              # "AvenCores|https://github.com/AvenCores/goida-vpn-configs|https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt"
-              # "CidVpn|https://github.com/CidVpn/cid-vpn-config|https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt"
+              "AvenCores|https://github.com/AvenCores/goida-vpn-configs|https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt"
+              "CidVpn|https://github.com/CidVpn/cid-vpn-config|https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt"
               
               # (Не актуально)
               # "ByeWhiteLists2|https://github.com/ByeWhiteLists/ByeWhiteLists2|https://raw.githubusercontent.com/ByeWhiteLists/ByeWhiteLists2/main/ByeWhiteLists2.txt"
