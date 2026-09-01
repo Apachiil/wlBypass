@@ -133,20 +133,20 @@ jobs:
           git config --local user.name "GitHub Actions"
 
           git add list/
-
-          git commit -m "Auto-update white lists $(TZ='Asia/Yekaterinburg' date '+%H:%M:%S [GMT%z] | %d.%m.%Y')"
+          
+          git commit -m "Update $(TZ='Asia/Yekaterinburg' date '+%H:%M:%S [GMT%z] | %d.%m.%Y')"
           
           # Пушим обратно в GitHub
           git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
           echo "🟢 Changes committed and pushed"
-
-      - name: Create release tag
-        if: steps.prepare.outputs.changed == 'true'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-          TAG_NAME="Update-$(TZ='Asia/Yekaterinburg' date '+%H.%M.%S_GMT%z_%d.%m.%Y')"
-          git tag "$TAG_NAME"
-          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$TAG_NAME"
-          echo "🟢 Tag created: $TAG_NAME"
+#
+#      - name: Create release tag
+#        if: steps.prepare.outputs.changed == 'true'
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        run: |
+#          set -euo pipefail
+#          TAG_NAME="Update-$(TZ='Asia/Yekaterinburg' date '+%H.%M.%S_GMT%z_%d.%m.%Y')"
+#          git tag "$TAG_NAME"
+#          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$TAG_NAME"
+#          echo "🟢 Tag created: $TAG_NAME"
