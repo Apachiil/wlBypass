@@ -6,7 +6,7 @@
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 # ---> Comment: wlBypass by 4qLA---
-# ---> Update: 14:00:34 [GMT+0500] | 02.09.2026
+# ---> Update: 14:30:31 [GMT+0500] | 02.09.2026
 # ---> Source: github.com/igareck/vpn-configs-for-russia
 # ---> RAW: raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
