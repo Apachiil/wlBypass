@@ -66,20 +66,20 @@ jobs:
               echo "🔵 Processing: $NAME"
               
               # --- Очистка файла ---
-              rm -f "$OUTPUT"
+              # rm -f "$OUTPUT" # Не нужно для GitHub Actions
               
               TEMP_FILE=$(mktemp)
               
               # --- Заголовок ---
               {
-                  echo "# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####"
-                  echo "# profile-title: wlBypass ${NAME}"
-                  echo "# profile-update-interval: 1"
-                  echo "# announce: 💜💜💜"
-                  echo "# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####"
+                  # echo "# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####"
+                  # echo "# profile-title: 4qLA---"
+                  # echo "# profile-update-interval: 12"
+                  # echo "# announce: 💜💜💜"
+                  # echo "# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####"
                   echo ""
                   echo "# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####"
-                  echo "# ---> Comment: wlBypass by 4qLA---"
+                  echo "# ---> Comment: wlBypass [${NAME}] by 4qLA---"
                   echo "# ---> Update: $(TZ='Asia/Yekaterinburg' date '+%H:%M:%S [GMT%z] | %d.%m.%Y')"
                   echo "# ---> Source: ${URL_SOURCE#*://}"
                   echo "# ---> RAW: ${URL_RAW#*://}"
@@ -89,7 +89,16 @@ jobs:
 
               # --- Коммент ---
               {
-                  echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#💜БЕЛЫЕ_СПИСКИ_НИЖЕ💜"
+                  com_01="wlBypass ${NAME}"
+                  com_02="Актуальные Подписки БС"
+                  com_03="shark.1337.cx/links"
+                  com_04="💜 БЕЛЫЕ СПИСКИ НИЖЕ 💜"
+                  echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${com_01}"
+                  echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${com_02}"
+                  echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${com_03}"
+                  echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${com_04}"
+                  # com_001="Test Announce"
+                  # echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${com_001}"
                   echo ""
               } >> "$TEMP_FILE"
               
