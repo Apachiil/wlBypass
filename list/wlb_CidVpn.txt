@@ -1,17 +1,15 @@
-# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
-# profile-title: wlBypass CidVpn
-# profile-update-interval: 1
-# announce: 💜💜💜
-# #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
-# ---> Comment: wlBypass by 4qLA---
-# ---> Update: 22:30:38 [GMT+0500] | 15.09.2026
+# ---> Comment: wlBypass [CidVpn] by 4qLA---
+# ---> Update: 22:51:50 [GMT+0500] | 15.09.2026
 # ---> Source: github.com/CidVpn/cid-vpn-config
 # ---> RAW: gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#💜БЕЛЫЕ_СПИСКИ_НИЖЕ💜
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#wlBypass CidVpn
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#Актуальные Подписки БС
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#shark.1337.cx/links
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#💜 БЕЛЫЕ СПИСКИ НИЖЕ 💜
 
 vless://0ff47d28-d0d6-4d8f-9d44-593ea39d828f@158.160.231.108:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=chrome&pbk=YBKQqcPbFlOY4Yw-DUUldDBQ0PZwq9Ergd-YbRHzy2I&packetEncoding=xudp#0001 - Универсальный | x5.ru | @CID_VPN
 vless://8822e9a7-9b61-4b5e-9efd-a483c7322b00@158.160.235.223:993?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=thz2uZE7rsLT609yRqqHsw9slQmCohEpFqRaoCoKLCs&sid=ad7dab462a323a#0002 - Универсальный | x5.ru | @CID_VPN
