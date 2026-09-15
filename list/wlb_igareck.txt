@@ -1,20 +1,20 @@
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
-# profile-title: wlBypass igareck
+# profile-title: wlb igareck
 # profile-update-interval: 12
 # announce: 🦈🦈🦈
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
-# ---> Comment: wlBypass [igareck] by 4qLA---
-# ---> Update: 23:05:53 [GMT+0500] | 15.09.2026
+# ---> Comment: wlBypass igareck by 4qLA---
+# ---> Update: 23:12:18 [GMT+0500] | 15.09.2026
 # ---> Source: github.com/igareck/vpn-configs-for-russia
 # ---> RAW: raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#wlBypass igareck
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#Актуальные Подписки БС
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#wlBypass_igareck
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#Актуальные_Подписки_БС
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#shark.1337.cx/links
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#🦈 БЕЛЫЕ СПИСКИ НИЖЕ 🦈
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#🦈БЕЛЫЕ_СПИСКИ_НИЖЕ🦈
 
 vless://e8002f83-f46a-40d8-9b36-ff982f029488@lt26.cdnfern.org:443?encryption=none&security=tls&sni=lt26.cdnfern.org&alpn=h2&type=xhttp&mode=auto&path=%2Fapi%2Fv1%2F&fp=edge#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%20%5B%2ACIDR%5D
 vless://e8002f83-f46a-40d8-9b36-ff982f029488@lt26.cdnfern.org:443?encryption=none&security=tls&sni=lt26.cdnfern.org&alpn=h2&type=xhttp&mode=auto&path=%2Fapi%2Fv1%2F&fp=qq#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%20%5B%2ACIDR%5D
