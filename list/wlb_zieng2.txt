@@ -6,16 +6,16 @@
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 # ---> Comment: 🦈 wlBypass [zieng2] >>> by 4qLA---
-# ---> Update: 06:30:32 [GMT+0500] | 16.09.2026
+# ---> Update: 06:34:35 [GMT+0500] | 16.09.2026
 # ---> Source: github.com/zieng2/wl
 # ---> RAW: raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#Актуальные_Подписки_БС
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#shark.1337.cx/links
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#Актуальные Подписки БС
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#shark.1337.cx/links
 
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#🌐🛡️wlBypass_[zieng2]
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#🟣🦈БЕЛЫЕ_СПИСКИ_НИЖЕ🦈🟣
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🌐🛡️wlBypass [zieng2]
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🟣🦈БЕЛЫЕ СПИСКИ НИЖЕ🦈🟣
 
 vless://633f424e-2b11-48da-a6b3-a849dd71456f@45.12.75.242:26424?encryption=none&fp=chrome&pbk=l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0&security=reality&sid=23103e1e&sni=ya.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20Beget%20%E2%80%94%20%231
 vless://633f424e-2b11-48da-a6b3-a849dd71456f@45.12.75.242:26424?encryption=none&fp=qq&pbk=l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0&security=reality&sid=23103e1e&sni=ya.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20Beget%20%E2%80%94%20%232

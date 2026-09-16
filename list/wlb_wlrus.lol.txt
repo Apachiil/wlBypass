@@ -6,16 +6,16 @@
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 # ---> Comment: 🦈 wlBypass [wlrus.lol] >>> by 4qLA---
-# ---> Update: 06:30:32 [GMT+0500] | 16.09.2026
+# ---> Update: 06:34:35 [GMT+0500] | 16.09.2026
 # ---> Source: None
 # ---> RAW: gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#Актуальные_Подписки_БС
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#shark.1337.cx/links
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#Актуальные Подписки БС
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#shark.1337.cx/links
 
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#🌐🛡️wlBypass_[wlrus.lol]
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#🟣🦈БЕЛЫЕ_СПИСКИ_НИЖЕ🦈🟣
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🌐🛡️wlBypass [wlrus.lol]
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🟣🦈БЕЛЫЕ СПИСКИ НИЖЕ🦈🟣
 
 vless://97c231e5-8183-4945-9663-ba0655175b26@185.241.195.202:9444?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=zoQ5Lz62_sEMvHJywCYjYpunMOlGG1rf_jL81iCbwQk&security=reality&sid=413da1312ccce8fb&sni=res.cdnguard.org&type=raw#1.%20%F0%9F%87%A8%F0%9F%87%AD%20VLESS%20%7C%20SNI%3A%20res.cdnguard.org%20%7C%20CIDR%3A%20VK%20%7C%20TG%3A%20%40wlrustg
 vless://92089155-6602-4122-86d4-fe6de20e8c4d@78.159.247.170:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=NsTRRl4ofT64w0VwmkpOWE8yfiXLcEqgwgi-9SGnXTA&security=reality&sid=a1b2c3d4&sni=kinopoisk.ru&type=raw#2.%20%F0%9F%87%A8%F0%9F%87%BF%20VLESS%20%7C%20SNI%3A%20kinopoisk.ru%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg
