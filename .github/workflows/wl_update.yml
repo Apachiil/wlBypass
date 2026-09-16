@@ -123,7 +123,7 @@ jobs:
                       # com_001="Test Announce"
                       # echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${com_001}"
                       
-                      comA_001="Актуальные Подписки БС"
+                      comA_001="Актуальные_Подписки_БС"
                       comA_002="shark.1337.cx/links"
                       echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${comA_001}"
                       echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${comA_002}"
@@ -134,8 +134,8 @@ jobs:
               # --- Коммент (postCom) ---
               if has_tag "postCom" "$CONTAIN"; then
                   {
-                      comM_001="🌐🛡️ wlBypass [${NAME}]"
-                      comM_002="🟣🦈 БЕЛЫЕ СПИСКИ НИЖЕ 🦈🟣"
+                      comM_001="🌐🛡️wlBypass_[${NAME}]"
+                      comM_002="🟣🦈БЕЛЫЕ_СПИСКИ_НИЖЕ🦈🟣"
                       echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${comM_001}"
                       echo "vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#${comM_002}"
                       echo ""
