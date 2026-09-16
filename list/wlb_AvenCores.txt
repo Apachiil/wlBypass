@@ -1,20 +1,21 @@
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
-# profile-title: wlb AvenCores
-# profile-update-interval: 12
+# profile-title: 🦈 wlBypass [AvenCores]
+# profile-update-interval: 6
 # announce: 🦈🦈🦈
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
-# ---> Comment: wlBypass AvenCores by 4qLA---
-# ---> Update: 06:00:43 [GMT+0500] | 16.09.2026
+# ---> Comment: 🦈 wlBypass [AvenCores] >>> by 4qLA---
+# ---> Update: 06:17:58 [GMT+0500] | 16.09.2026
 # ---> Source: github.com/AvenCores/goida-vpn-configs
 # ---> RAW: raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#wlBypass_AvenCores
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#Актуальные_Подписки_БС
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#Актуальные Подписки БС
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#shark.1337.cx/links
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#🦈БЕЛЫЕ_СПИСКИ_НИЖЕ🦈
+
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#🌐🛡️ wlBypass [AvenCores]
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:0?security=none#🟣🦈 БЕЛЫЕ СПИСКИ НИЖЕ 🦈🟣
 
 vless://9fd994ad-d36c-476d-96c7-25f10bbdf2cb@31.77.140.4:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.io.ozone.ru&fp=firefox&pbk=3oXLSdYW2x9TMuDRu2Bo4XGXfVtU8cQqBaL2pcWCNEk&sid=a20d3ed244c76426&type=tcp&headerType=none#🌐سرور 22 | Sha-25| MTSRVRS
 vless://d7cad038-0c3f-4cce-8f8a-36464aaf66c0@31.76.7.154:7443?security=reality&encryption=none&pbk=1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ya.ru&sid=d2061bb1#🏳[openproxylist.com] vless-
