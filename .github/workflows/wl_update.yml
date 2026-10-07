@@ -124,7 +124,7 @@ jobs:
                       # echo "vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#${com_001}"
                       
                       comA_001="Актуальные Подписки БС"
-                      comA_002="shark.1337.cx/links"
+                      comA_002="shark.qla.cc.cd/links"
                       echo "vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#${comA_001}"
                       echo "vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#${comA_002}"
                       echo ""
