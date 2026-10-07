@@ -30,7 +30,7 @@ jobs:
           set -euo pipefail
 
           # || ====================================================== ||
-          # ||  wlBypass Update V3.0.0 - by kek_s1k                   ||
+          # ||  wlBypass Update V3.0.1 - by kek_s1k                   ||
           # || ====================================================== ||
 
           # === Output ===
@@ -42,15 +42,15 @@ jobs:
           URLS=(
               "shark,postLabel,postCom|zieng2|https://github.com/zieng2/wl|https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt"
               
-              "preLabel,postLabel,preCom,postCom|igareck|https://github.com/igareck/vpn-configs-for-russia|https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt"
               "preLabel,postLabel,preCom,postCom|zieng2|https://github.com/zieng2/wl|https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt"
+              "preLabel,postLabel,preCom,postCom|igareck|https://github.com/igareck/vpn-configs-for-russia|https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt"
               "preLabel,postLabel,preCom,postCom|wlrus.lol|None|https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt"
-              "preLabel,postLabel,preCom,postCom|AvenCores|https://github.com/AvenCores/goida-vpn-configs|https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt"
               "preLabel,postLabel,preCom,postCom|CidVpn|https://github.com/CidVpn/cid-vpn-config|https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt"
 
               # (Не актуально)
-              # "None|ByeWhiteLists2|https://github.com/ByeWhiteLists/ByeWhiteLists2|https://raw.githubusercontent.com/ByeWhiteLists/ByeWhiteLists2/main/ByeWhiteLists2.txt"
-              # "None|GhostVPN|https://github.com/SilentGhostCodes/WhiteListVpn|https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/main/Whitelist.txt"
+              # (AvenCores Гитхаб Акк Удален???) # "preLabel,postLabel,preCom,postCom|AvenCores|https://github.com/AvenCores/goida-vpn-configs|https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt"
+              # "preLabel,postLabel,preCom,postCom|ByeWhiteLists2|https://github.com/ByeWhiteLists/ByeWhiteLists2|https://raw.githubusercontent.com/ByeWhiteLists/ByeWhiteLists2/main/ByeWhiteLists2.txt"
+              # "preLabel,postLabel,preCom,postCom|GhostVPN|https://github.com/SilentGhostCodes/WhiteListVpn|https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/main/Whitelist.txt"
           )
           
           # Тег "CONTAIN"
