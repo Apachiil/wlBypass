@@ -1,5 +1,5 @@
 All Links With QR:
-- https://shark.1337.cx/links
+- https://shark.qla.cc.cd/links
 
 RAW Links:
 - https://raw.githubusercontent.com/Apachiil/wlBypass/main/list/wlb_zieng2.txt
