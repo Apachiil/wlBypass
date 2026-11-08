@@ -6,7 +6,7 @@
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 # ---> Comment: 🦈 wlBypass [wlrus.lol] >>> by 4qLA---
-# ---> Update: 09:30:38 [GMT+0500] | 08.11.2026
+# ---> Update: 10:00:44 [GMT+0500] | 08.11.2026
 # ---> Source: None
 # ---> RAW: gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
@@ -17,3 +17,14 @@ vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#shark.qla
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🌐🛡️wlBypass [wlrus.lol]
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🟣🦈БЕЛЫЕ СПИСКИ НИЖЕ🦈🟣
 
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <meta charset="UTF-8">
+        <title>Rate-limit exceeded</title>
+      </head>
+      <body>
+        <h2>Unauthenticated requests rate-limit exceeded</h2>
+        <p>Please <a href="https://gitverse.ru/signin">signin</a> to continue</p>
+      </body>
+      </html>
