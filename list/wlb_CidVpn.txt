@@ -6,7 +6,7 @@
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 # ---> Comment: 🦈 wlBypass [CidVpn] >>> by 4qLA---
-# ---> Update: 00:30:41 [GMT+0500] | 09.11.2026
+# ---> Update: 01:00:46 [GMT+0500] | 09.11.2026
 # ---> Source: github.com/CidVpn/cid-vpn-config
 # ---> RAW: gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
@@ -17,3 +17,14 @@ vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#shark.qla
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🌐🛡️wlBypass [CidVpn]
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🟣🦈БЕЛЫЕ СПИСКИ НИЖЕ🦈🟣
 
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <meta charset="UTF-8">
+        <title>Rate-limit exceeded</title>
+      </head>
+      <body>
+        <h2>Unauthenticated requests rate-limit exceeded</h2>
+        <p>Please <a href="https://gitverse.ru/signin">signin</a> to continue</p>
+      </body>
+      </html>
