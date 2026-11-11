@@ -6,7 +6,7 @@
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 # ---> Comment: 🦈 wlBypass [CidVpn] >>> by 4qLA---
-# ---> Update: 19:30:57 [GMT+0500] | 11.11.2026
+# ---> Update: 20:00:53 [GMT+0500] | 11.11.2026
 # ---> Source: github.com/CidVpn/cid-vpn-config
 # ---> RAW: gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
@@ -17,144 +17,258 @@ vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#shark.qla
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🌐🛡️wlBypass [CidVpn]
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🟣🦈БЕЛЫЕ СПИСКИ НИЖЕ🦈🟣
 
-vless://0ff47d28-d0d6-4d8f-9d44-593ea39d828f@158.160.231.108:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=chrome&pbk=YBKQqcPbFlOY4Yw-DUUldDBQ0PZwq9Ergd-YbRHzy2I&packetEncoding=xudp#0001 - Универсальный | x5.ru | @CID_VPN
-vless://8822e9a7-9b61-4b5e-9efd-a483c7322b00@158.160.235.223:993?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=thz2uZE7rsLT609yRqqHsw9slQmCohEpFqRaoCoKLCs&sid=ad7dab462a323a#0002 - Универсальный | x5.ru | @CID_VPN
-vless://3a586fa7-92e3-459f-91a6-bab8d8c83e33@51.250.90.34:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=wl-6-4.legendary.ac&pbk=UZcUXcDWwIkPoLsqflKMGiFx50MERRpum96y-y5Dv1Q&sid=ffd676bc2a2657ef#0003 - Универсальный | 20wl-6-4.legendary | @CID_VPN
-vless://3a586fa7-92e3-459f-91a6-bab8d8c83e33@51.250.39.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=wl-6-1.legendary.ac&pbk=uofZM1SG_RthhSONWy50U6cQ5m3kXy-sglwY0CANfi8&sid=468d8ab371f8f563#0004 - Универсальный | 20wl-6-1.legendary | @CID_VPN
-vless://09a429d9-6ffa-43f3-8b3a-c634dbdda94d@217.16.30.235:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=yandex.ru&pbk=foa_WHByPPPqrHq4-t66IvC1Z19Ch707zOzS6a1CAyQ#0005 - Универсальный | 20yandex.ru | @CID_VPN
-vless://0ff47d28-d0d6-4d8f-9d44-593ea39d828f@158.160.231.108:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=YBKQqcPbFlOY4Yw-DUUldDBQ0PZwq9Ergd-YbRHzy2I#0006 - Универсальный | x5.ru | @CID_VPN
-vless://0ff47d28-d0d6-4d8f-9d44-593ea39d828f@158.160.231.108:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=chrome&pbk=YBKQqcPbFlOY4Yw-DUUldDBQ0PZwq9Ergd-YbRHzy2I&sid=6ba85179e30d4fc2&packetEncoding=xudp#0007 - Универсальный | x5.ru | @CID_VPN
-vless://2a56c22c-8cd9-48e0-a21b-798c09312d6c@51.250.27.109:2053?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=sun6-21.userapi.com&pbk=rR-VrakwXWCU1MZu34xI1g-LBK7Ux7kLLrj9LMYJiwQ&sid=a1b2c3d4#0008 - Универсальный | 20sun6-21.userapi | @CID_VPN
-vless://4ccff2bb-b761-40f0-95ec-a58b38862dab@158.160.12.31:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=chrome&security=reality&pbk=9V6nLW41-TzWLHj4NGN-MW-71IA-41W0VgUMOgihwTo&sid=#0009 - Универсальный | x5.ru | @CID_VPN
-vless://09a429d9-6ffa-43f3-8b3a-c634dbdda94d@217.16.16.72:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=yandex.ru&pbk=pCuxB_edEjjHHt_sYHEAEQyrX2L1VfDaQkPpnd78LAM#0010 - Универсальный | 20yandex.ru | @CID_VPN
-vless://0ff47d28-d0d6-4d8f-9d44-593ea39d828f@158.160.231.108:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=YBKQqcPbFlOY4Yw-DUUldDBQ0PZwq9Ergd-YbRHzy2I&sid=6ba85179e30d4fc2#0011 - Универсальный | x5.ru | @CID_VPN
-vless://0ff47d28-d0d6-4d8f-9d44-593ea39d828f@158.160.231.108:8443?type=tcp&security=reality&sni=ads.x5.ru&fp=chrome&flow=xtls-rprx-vision&pbk=YBKQqcPbFlOY4Yw-DUUldDBQ0PZwq9Ergd-YbRHzy2I#0012 - Универсальный | x5.ru | @CID_VPN
-vless://3a586fa7-92e3-459f-91a6-bab8d8c83e33@51.250.24.230:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=wl-6-3.legendary.ac&pbk=HXP9HKqhQvwTwh0cgddJ3c3VND1lwRYRXgKfW1XPaX4&sid=bf0c3248f61fe277#0013 - Универсальный | 20wl-6-3.legendary | @CID_VPN
-vless://6d61f79b-2751-4282-96be-6900428ff033@109.120.191.233:7443/?type=tcp&encryption=none&sni=max.ru&fp=chrome&security=reality&pbk=Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw&sid=7dbf7d3233971d5c#0014 - Универсальный | 20max.ru | @CID_VPN
-vless://8822e9a7-9b61-4b5e-9efd-a483c7322b00@158.160.235.223:993/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&security=reality&pbk=thz2uZE7rsLT609yRqqHsw9slQmCohEpFqRaoCoKLCs&sid=ad7dab462a323a#0015 - Универсальный | x5.ru | @CID_VPN
-vless://6d61f79b-2751-4282-96be-6900428ff033@109.120.191.233:80/?type=tcp&encryption=none&sni=sso.passport.yandex.ru&fp=chrome&security=reality&pbk=Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw&sid=7dbf7d3233971d5c#0016 - Универсальный | 20sso.passport | @CID_VPN
-vless://e8485150-d10e-4271-b2fb-dd37c9bd44f4@109.69.218.165:443?flow=xtls-rprx-vision&fp=randomized&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0017 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://41105dd0-b83a-4477-9050-a9ada3003334@109.120.191.233:8080/?type=tcp&encryption=none&sni=sso.passport.yandex.ru&fp=chrome&security=reality&pbk=Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw&sid=7dbf7d3233971d5c#0018 - Универсальный | 20sso.passport | @CID_VPN
-vless://6d61f79b-2751-4282-96be-6900428ff033@109.120.191.233:8080/?type=tcp&encryption=none&sni=eh.vk.com&fp=chrome&security=reality&pbk=Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw&sid=7dbf7d3233971d5c#0019 - Универсальный | 20eh.vk | @CID_VPN
-vless://e704d1f1-cbe6-417e-8b93-5b2d8635c4a1@109.69.218.167:443?flow=xtls-rprx-vision&fp=randomized&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0020 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://409bdb0f-5aae-4e93-a8dd-60adc47d5fd3@158.160.101.240:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=qq&security=reality&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#0021 - Универсальный | x5.ru | @CID_VPN
-vless://409bdb0f-5aae-4e93-a8dd-60adc47d5fd3@51.250.67.51:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=web.max.ru&fp=qq&security=reality&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#0022 - Универсальный | 20web.max | @CID_VPN
-vless://409bdb0f-5aae-4e93-a8dd-60adc47d5fd3@84.201.159.228:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=qq&security=reality&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#0023 - Универсальный | x5.ru | @CID_VPN
-vless://409bdb0f-5aae-4e93-a8dd-60adc47d5fd3@158.160.101.240:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=web.max.ru&fp=qq&security=reality&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#0024 - Универсальный | 20web.max | @CID_VPN
-vless://409bdb0f-5aae-4e93-a8dd-60adc47d5fd3@51.250.9.177:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=qq&security=reality&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32#0025 - Универсальный | x5.ru | @CID_VPN
-vless://e8485150-d10e-4271-b2fb-dd37c9bd44f4@109.69.218.166:443?flow=xtls-rprx-vision&fp=randomized&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0026 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://b58a4390-6aba-451a-8010-61916ebe6bb3@111.88.146.74:25462?flow=&fp=chrome&pbk=PKfGbpZj-i7I76rfgEDgJIsXZ_TqE0B2ntNN6g3qTXI&security=reality&sid=9a694cfa8ebd15&sni=www.m.vk.ru&type=tcp#0027 - Универсальный | m.vk | @CID_VPN
-vless://31fb98b7-e7a1-4b56-8c6a-3f060f06393c@5.183.253.171:443?flow=xtls-rprx-vision&fp=chrome&pbk=yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28&security=reality&sid=8248954896&sni=eh.vk.com&type=tcp#0028 - Универсальный | 20eh.vk | @CID_VPN
-vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.12.31:80?flow=&host=floral-term-d21f.wafajax493.workers.dev&path=%F0%9F%94%92&type=ws#0029 - Универсальный | floral-term-d21f.wafajax493... | @CID_VPN
-vless://e704d1f1-cbe6-417e-8b93-5b2d8635c4a1@109.69.218.165:443?flow=xtls-rprx-vision&fp=chrome&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0030 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://c6243c63-e91d-46a3-a83c-85c165bad1ab@51.250.0.177:5555?flow=xtls-rprx-vision&fp=qq&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sid=6ba85179e30d4fc2&sni=max.ru&type=tcp#0031 - Универсальный | 20max.ru | @CID_VPN
-vless://a34a5f3e-e9fa-40a6-f3af-2984adbd701b@178.104.118.247:2087?flow=&type=tcp#0032 - Универсальный | No SNI | @CID_VPN
-vless://163731d3-8466-4405-acdb-ccd45d971254@217.16.23.28:443?flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sid=6ba85179e30d4fc2&sni=max.ru&type=tcp#0033 - Универсальный | 20max.ru | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv80.towersflowerss.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=Ufkz__Q3m_d8NFR08OVtXx3hLaV4-x7UesrVKduEIn0&security=reality&sid=&sni=srv80.towersflowerss.com&type=tcp#0034 - Универсальный | 20srv80.towersflowerss | @CID_VPN
-vless://31fb98b7-e7a1-4b56-8c6a-3f060f06393c@freetg.strettenvpn.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28&security=reality&sid=8248954896&sni=eh.vk.com&type=tcp#0035 - Универсальный | 20eh.vk | @CID_VPN
-vless://fc625795-792d-4d9d-9d38-bffe59467d2d@104.18.3.108:8443?flow=&fp=randomized&host=daluan.eu.org&path=%2F&security=tls&sni=daluan.eu.org&type=ws#0036 - Универсальный | 20daluan.eu | @CID_VPN
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@104.31.16.158:443?flow=&host=hha.albertabobbi.ndjp.net&path=%2F&security=tls&sni=hha.albertabobbi.ndjp.net&type=ws#0037 - Универсальный | 20hha.albertabobbi | @CID_VPN
-vless://169221de-6408-4143-9e66-6f77de385e94@172.67.204.84:443?flow=&fp=chrome&host=cassiusvpn-cassiusvpn-000.stat-4.workers.dev&path=%2F&security=tls&sni=cassiusvpn-cassiusvpn-000.stat-4.workers.dev&type=ws#0038 - Универсальный | 20cassiusvpn-cassiusvpn-000... | @CID_VPN
-vless://f2564bb4-9960-4ccb-8017-bc02802f768a@188.114.96.3:443?flow=&host=white-snowflake-e65e.queenmahsan1.workers.dev&path=%2F&security=tls&sni=white-snowflake-e65e.queenmahsan1.workers.dev&type=ws#0039 - Универсальный | 20white-snowflake-e65e.quee... | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv120.towersflowerss.com:65000?flow=&path=%2F&type=ws#0040 - Универсальный | 20srv120.towersflowerss | @CID_VPN
-vless://41e72698-f09a-4617-8f1b-33359c2473cc@144.31.171.182:443?flow=xtls-rprx-vision&fp=qq&pbk=QcYJtyoXm01O0DbwCc_sXDqa0Y9D6detbg07HovecSg&security=reality&sid=a0f2b4232e34f664&sni=max.ru&type=tcp#0041 - Универсальный | 20max.ru | @CID_VPN
-vless://f2564bb4-9960-4ccb-8017-bc02802f768a@104.21.61.58:443?flow=&fp=chrome&host=white-snowflake-e65e.queenmahsan1.workers.dev&path=%2F&security=tls&sni=white-snowflake-e65e.queenmahsan1.workers.dev&type=ws#0042 - Универсальный | 20white-snowflake-e65e.quee... | @CID_VPN
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.148.107.253:8880?flow=&host=joss.jak.biz.id&path=%2FFree-VPN-CF-Geo-Project%2FHK%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&type=ws#0043 - Универсальный | joss.jak.biz.id | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.firm-tower.test-cdn-kkk.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=lon.eu-ffast.com&type=tcp#0044 - Универсальный | 20lon.eu | @CID_VPN
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.130.125.253:8880?flow=&host=joss.jak.biz.id&path=%2FFree-VPN-CF-Geo-Project%2FHK%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&type=ws#0045 - Универсальный | joss.jak.biz.id | @CID_VPN
-vless://409bdb0f-5aae-4e93-a8dd-60adc47d5fd3@84.201.131.34:443?flow=xtls-rprx-vision&fp=chrome&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&sid=428ef87fd47a3a32&sni=smartcaptcha.yandexcloud.net&type=tcp#0046 - Универсальный | 20smartcaptcha.yandexcloud | @CID_VPN
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@212.41.28.109:4443?flow=&type=tcp#0047 - Универсальный | No SNI | @CID_VPN
-vless://a6e26ac0-644f-0021-8035-e2be0c93ffbb@eep.musicperec.ru:443?flow=xtls-rprx-vision&fp=chrome&pbk=kG6zs_B1ZlZ5kjeC0WWPSz4B60vk_VeWj_WYsl2mGBw&security=reality&sid=2e8f3a0b&sni=www.amd.com&type=tcp#0048 - Универсальный | 20www.amd | @CID_VPN
-vless://41e72698-f09a-4617-8f1b-33359c2473cc@103.213.249.46:443?flow=xtls-rprx-vision&fp=chrome&pbk=QcYJtyoXm01O0DbwCc_sXDqa0Y9D6detbg07HovecSg&security=reality&sid=a0f2b4232e34f664&sni=ads.x5.ru&type=tcp#0049 - Универсальный | x5.ru | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.vast-mesa.test-cdn-kkk.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=tradingview.com&type=tcp#0050 - Универсальный | 20tradingview.com | @CID_VPN
-vless://97fcac7b-0649-49b4-8263-a5621ffa7de0@212.46.33.7:443?flow=xtls-rprx-vision&fp=qq&pbk=pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U&security=reality&sid=0a8428f5ab26ef5a&sni=nl.normbot.ru&type=tcp#0051 - Универсальный | 20nl.normbot | @CID_VPN
-vless://41e72698-f09a-4617-8f1b-33359c2473cc@185.100.157.171:443?flow=xtls-rprx-vision&fp=qq&pbk=QcYJtyoXm01O0DbwCc_sXDqa0Y9D6detbg07HovecSg&security=reality&sid=a0f2b4232e34f664&sni=max.ru&type=tcp#0052 - Универсальный | 20max.ru | @CID_VPN
-vless://fc625795-792d-4d9d-9d38-bffe59467d2d@104.18.2.108:8443?flow=&fp=randomized&host=daluan.eu.org&path=%2F&security=tls&sni=daluan.eu.org&type=ws#0053 - Универсальный | 20daluan.eu | @CID_VPN
-vless://da83025c-6edd-4f3b-979d-1cb0cf59f4d0@193.24.235.214:443?flow=xtls-rprx-vision&fp=chrome&pbk=jiE7wi7xze9XrM9b-urHKZf7TO2lRgk8g6io9vZKE3s&security=reality&sid=d2b016f433b83a16&sni=sp.kickvpn.ru&type=tcp#0054 - Универсальный | 20sp.kickvpn | @CID_VPN
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@159.65.125.162:2087?flow=&host=sni.latonyamadeline.ndjp.net&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=sni.latonyamadeline.ndjp.net&type=ws#0055 - Универсальный | 20sni.latonyamadeline | @CID_VPN
-vless://e806ddb6-b847-5bbe-aa26-259f2ac370bf@82.38.65.91:10086?flow=&type=tcp#0056 - Универсальный | No SNI | @CID_VPN
-vless://fc625795-792d-4d9d-9d38-bffe59467d2d@104.18.2.26:2083?flow=&fp=randomized&host=daluan.eu.org&path=%2F&security=tls&sni=daluan.eu.org&type=ws#0057 - Универсальный | 20daluan.eu | @CID_VPN
-vless://e704d1f1-cbe6-417e-8b93-5b2d8635c4a1@109.69.218.166:443?flow=xtls-rprx-vision&fp=chrome&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0058 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://da83025c-6edd-4f3b-979d-1cb0cf59f4d0@130.12.242.182:443?flow=xtls-rprx-vision&pbk=hiwB3SDzaT_l-hVWRdhuRBQ3AxbNcJePgSqEwECkIzo&security=reality&sid=58fe4f834d5554a6&sni=nl1.kickvpn.ru&type=tcp#0059 - Универсальный | 20nl1.kickvpn | @CID_VPN
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@5.188.156.138:4443?flow=&type=tcp#0060 - Универсальный | No SNI | @CID_VPN
-vless://e62d084a-b9de-4486-a776-a54d200f89c1@104.21.25.157:443?flow=&host=square-sea-36d2.sendconfig.workers.dev&path=ws&security=tls&sni=square-sea-36d2.sendconfig.workers.dev&type=ws#0061 - Универсальный | 20square-sea-36d2.sendconfig | @CID_VPN
-vless://41e72698-f09a-4617-8f1b-33359c2473cc@185.100.157.60:443?flow=xtls-rprx-vision&fp=qq&pbk=QcYJtyoXm01O0DbwCc_sXDqa0Y9D6detbg07HovecSg&security=reality&sid=a0f2b4232e34f664&sni=max.ru&type=tcp#0062 - Универсальный | 20max.ru | @CID_VPN
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.177.56.253:8880?flow=&host=joss.jak.biz.id&path=%2FFree-VPN-CF-Geo-Project%2FHK%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&type=ws#0063 - Универсальный | joss.jak.biz.id | @CID_VPN
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@141.101.123.253:8880?flow=&host=joss.jak.biz.id&path=%2FFree-VPN-CF-Geo-Project%2FHK%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&type=ws#0064 - Универсальный | joss.jak.biz.id | @CID_VPN
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@92.53.191.253:8880?flow=&host=joss.jak.biz.id&path=%2FFree-VPN-CF-Geo-Project%2FHK%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&type=ws#0065 - Универсальный | joss.jak.biz.id | @CID_VPN
-vless://913e7701-b4f0-4568-8f2f-79a8e71e14aa@109.69.218.164:443?flow=xtls-rprx-vision&fp=randomized&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0066 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://da83025c-6edd-4f3b-979d-1cb0cf59f4d0@130.12.242.122:443?flow=xtls-rprx-vision&fp=chrome&pbk=hiwB3SDzaT_l-hVWRdhuRBQ3AxbNcJePgSqEwECkIzo&security=reality&sid=58fe4f834d5554a6&sni=nl.kickvpn.ru&type=tcp#0067 - Универсальный | 20nl.kickvpn | @CID_VPN
-vless://fc625795-792d-4d9d-9d38-bffe59467d2d@104.18.3.150:443?flow=&fp=randomized&host=daluan.eu.org&path=%2F&security=tls&sni=daluan.eu.org&type=ws#0068 - Универсальный | 20daluan.eu | @CID_VPN
-vless://a6e26ac0-644f-0058-8035-e2be0c93ffbb@185.16.36.164:443?flow=xtls-rprx-vision&fp=chrome&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&security=reality&sid=2c5d0e9f&sni=www.amd.com&type=tcp#0069 - Универсальный | 20www.amd | @CID_VPN
-vless://e679aa5e-fde0-4e9f-ad46-63725e1c47f3@3.123.40.223:7500?flow=xtls-rprx-vision&fp=chrome&pbk=8a3blVdAACDlvRA5zrdNxHLZ9boU5QkwGMkf0WwyZVI&security=reality&sid=77a3a1c829040294&sni=cdn77.com&type=tcp#0070 - Универсальный | 20cdn77.com | @CID_VPN
-vless://da83025c-6edd-4f3b-979d-1cb0cf59f4d0@185.177.219.186:443?flow=xtls-rprx-vision&fp=chrome&pbk=A7hZ2wHLbAkSCJPWd_55JWnsVAi_CRCVS0AnTc7IByo&security=reality&sid=8f76148176b63973&sni=ru.kickvpn.ru&type=tcp#0071 - Универсальный | 20ru.kickvpn | @CID_VPN
-vless://4649d681-7f26-4959-a3f2-02eb8866230f@72.56.34.155:9443?flow=xtls-rprx-vision&fp=chrome&pbk=wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg&security=reality&sid=2344766a270a6298&sni=yahoo.com&type=tcp#0072 - Универсальный | 20yahoo.com | @CID_VPN
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.210.175.100:443?flow=&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&security=reality&sid=&sni=www.ilovepdf.com&type=tcp#0073 - Универсальный | 20www.ilovepdf | @CID_VPN
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@87.228.124.196:4443?flow=&type=tcp#0074 - Универсальный | No SNI | @CID_VPN
-vless://88bc511b-c912-4745-86e8-685fd3f381bf@109.69.218.166:443?flow=xtls-rprx-vision&fp=chrome&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0075 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@ru7.frostmotiveseed.net:4443?flow=&type=tcp#0076 - Универсальный | 20ru7.frostmotiveseed | @CID_VPN
-vless://da83025c-6edd-4f3b-979d-1cb0cf59f4d0@130.12.242.182:443?flow=xtls-rprx-vision&fp=chrome&pbk=hiwB3SDzaT_l-hVWRdhuRBQ3AxbNcJePgSqEwECkIzo&security=reality&sid=58fe4f834d5554a6&sni=nl1.kickvpn.ru&type=tcp#0077 - Универсальный | 20nl1.kickvpn | @CID_VPN
-vless://88bc511b-c912-4745-86e8-685fd3f381bf@109.69.218.165:443?flow=xtls-rprx-vision&fp=randomized&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0078 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://913e7701-b4f0-4568-8f2f-79a8e71e14aa@109.69.218.166:443?flow=xtls-rprx-vision&fp=randomized&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0079 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://fc625795-792d-4d9d-9d38-bffe59467d2d@104.18.3.26:2083?flow=&fp=randomized&host=daluan.eu.org&path=%2F&security=tls&sni=daluan.eu.org&type=ws#0080 - Универсальный | 20daluan.eu | @CID_VPN
-vless://181da4ca-bbce-4854-b9b5-eaea067ea206@109.69.218.164:443?flow=xtls-rprx-vision&fp=randomized&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0081 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@45.146.89.35:443?flow=&type=tcp#0082 - Универсальный | No SNI | @CID_VPN
-vless://f305eedf-ef6d-4402-ae86-f70e6c38fd65@109.69.218.167:443?flow=xtls-rprx-vision&fp=randomized&pbk=6rnKHCkFuVeaJjiXLnJhfzQpQRSlPt-i6USvnRFiUBg&security=reality&sid=223d6eafc6c6e894&sni=lerua.xyz&type=tcp#0083 - Универсальный | 20lerua.xyz | @CID_VPN
-vless://41e72698-f09a-4617-8f1b-33359c2473cc@185.100.157.173:443?flow=xtls-rprx-vision&fp=qq&pbk=QcYJtyoXm01O0DbwCc_sXDqa0Y9D6detbg07HovecSg&security=reality&sid=a0f2b4232e34f664&sni=max.ru&type=tcp#0084 - Универсальный | 20max.ru | @CID_VPN
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.218.199.24:443?flow=&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&security=reality&sid=&sni=cdn-dynmedia-1.microsoft.com&type=tcp#0085 - Универсальный | 20cdn-dynmedia-1.microsoft | @CID_VPN
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.217.78.216:443?flow=&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&security=reality&sid=&sni=dsum-sec.casalemedia.com&type=tcp#0086 - Универсальный | 20dsum-sec.casalemedia | @CID_VPN
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@ru8.frostmotiveseed.net:4443?flow=&type=tcp#0087 - Универсальный | 20ru8.frostmotiveseed | @CID_VPN
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@ru2.frostmotiveseed.net:4443?flow=&type=tcp#0088 - Универсальный | 20ru2.frostmotiveseed | @CID_VPN
-vless://c603d9a2-a89a-4b62-ac96-346d3b52620c@lol-nld-0001.api.neuralrelay.stream:443?flow=xtls-rprx-vision&fp=chrome&pbk=9WnuH4KUb9-cCqbApq4bVLDhrqhPbpnd5eTn14bGciA&security=reality&sid=c25bd5a0bfdc06&sni=hls-svod.itunes.apple.com&type=tcp#0089 - Универсальный | 20hls-svod.itunes | @CID_VPN
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@ru3.frostmotiveseed.net:4443?flow=&type=tcp#0090 - Универсальный | 20ru3.frostmotiveseed | @CID_VPN
-vless://d076cf5a-0c9c-4b0f-a369-ff374afc9b37@89.125.37.138:7443?flow=xtls-rprx-vision&fp=chrome&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&security=reality&sid=be0ce047&sni=chat.deepseek.com&type=tcp#0091 - Универсальный | 20chat.deepseek | @CID_VPN
-vless://a6e26ac0-644f-45da-8035-e2be0c93ffbb@nlp.musicperec.ru:443?flow=xtls-rprx-vision&fp=chrome&pbk=k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw&security=reality&sid=8a5b4c1d&sni=www.amd.com&type=tcp#0092 - Универсальный | 20www.amd | @CID_VPN
-vless://aae49537-115f-4c27-ae5d-7008902c5ad3@5.188.77.163:443?flow=xtls-rprx-vision&fp=chrome&pbk=e-KPwL3RuDctEK735FK1t7LxsWc39JjHAoPSprWLWy4&security=reality&sid=4bbf0da8e5069c44&sni=graphql-web.kinopoisk.ru&type=tcp#0093 - Универсальный | 20graphql-web.kinopoisk | @CID_VPN
-vless://2420af47-2316-482e-bb0f-b164df4b2334@158.160.102.236:443?flow=xtls-rprx-vision&fp=qq&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&sid=428ef87fd47a3a32&sni=sso.passport.yandex.ru&type=tcp#0094 - Универсальный | 20sso.passport | @CID_VPN
-vless://409bdb0f-5aae-4e93-a8dd-60adc47d5fd3@51.250.9.177:443?flow=xtls-rprx-vision&fp=qq&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&security=reality&sid=428ef87fd47a3a32&sni=ads.x5.ru&type=tcp#0095 - Универсальный | x5.ru | @CID_VPN
-vless://1a87693f-fbe6-414a-9085-6a546a740ce2@141.98.7.174:1443?flow=xtls-rprx-vision&fp=chrome&pbk=jcbKiuGcU2YDvAzLDO0fRFboRtQH-v-bQpZMWsns9TA&security=reality&sid=f9e8d7c6&sni=max.ru&type=tcp#0096 - Универсальный | 20max.ru | @CID_VPN
-vless://c6243c63-e91d-46a3-a83c-85c165bad1ab@51.250.83.190:5555?flow=xtls-rprx-vision&fp=qq&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sid=&sni=max.ru&type=tcp#0097 - Универсальный | 20max.ru | @CID_VPN
-vless://c603d9a2-a89a-4b62-ac96-346d3b52620c@lol-sgp-0001.api.neuralrelay.stream:443?flow=xtls-rprx-vision&fp=chrome&pbk=9WnuH4KUb9-cCqbApq4bVLDhrqhPbpnd5eTn14bGciA&security=reality&sid=b211e46c93&sni=hls-svod.itunes.apple.com&type=tcp#0098 - Универсальный | 20hls-svod.itunes | @CID_VPN
-vless://f2564bb4-9960-4ccb-8017-bc02802f768a@188.114.96.3:443?flow=&fp=chrome&host=white-snowflake-e65e.queenmahsan1.workers.dev&path=%2F&security=tls&sni=white-snowflake-e65e.queenmahsan1.workers.dev&type=ws#0099 - Универсальный | 20white-snowflake-e65e.quee... | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv174.towersflowerss.com:65000?flow=&path=%2F&type=ws#0100 - Универсальный | 20srv174.towersflowerss | @CID_VPN
-vless://5b1c5027-5bc6-4ee2-b287-001b05fba219@cdn.prostovpn.website:2087?flow=&host=cdn.prostovpn.website&path=%2Fws-cdn&security=tls&sni=cdn.prostovpn.website&type=ws#0101 - Универсальный | 20cdn.prostovpn | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.grey-lance.test-cdn-kkk.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=tradingview.com&type=tcp#0102 - Универсальный | 20tradingview.com | @CID_VPN
-vless://26524cce-d514-4014-a426-365fb266a14d@104.224.157.40:443?flow=&fp=chrome&host=gso9r.gateway-edge.chinav.indevs.in&path=%2Fdanfeng%3Fed%3D2560&security=tls&sni=gso9r.gateway-edge.chinav.indevs.in&type=ws#0103 - Универсальный | 20gso9r.gateway | @CID_VPN
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@38.147.187.14:443?flow=&fp=chrome&host=sn1.skylee5.cloudns.ch&path=%2F&security=tls&sni=sn1.skylee5.cloudns.ch&type=ws#0104 - Универсальный | 20sn1.skylee | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.red-blaze.test-cdn-kkk.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=tradingview.com&type=tcp#0105 - Универсальный | 20tradingview.com | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.soft-blade.test-cdn-kkk.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=tradingview.com&type=tcp#0106 - Универсальный | 20tradingview.com | @CID_VPN
-vless://68fe2747-df31-42a4-bc9b-35772b6359c2@ch-gt-01.com:8443?flow=xtls-rprx-vision&fp=chrome&pbk=8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc&security=reality&sid=445ab326fc7c90ac&sni=rbc.ru&type=tcp#0107 - Универсальный | 20rbc.ru | @CID_VPN
-vless://163731d3-8466-4405-acdb-ccd45d971254@hu.chocolatemango.live:443?flow=xtls-rprx-vision&fp=chrome&security=tls&sni=hu.chocolatemango.live&type=tcp#0108 - Универсальный | 20hu.chocolatemango | @CID_VPN
-vless://e62d084a-b9de-4486-a776-a54d200f89c1@square-sea-36d2.sendconfig.workers.dev:443?flow=&fp=chrome&host=square-sea-36d2.sendconfig.workers.dev&path=ws&security=tls&sni=square-sea-36d2.sendconfig.workers.dev&type=ws#0109 - Универсальный | 20square-sea-36d2.sendconfig | @CID_VPN
-vless://e62d084a-b9de-4486-a776-a54d200f89c1@square-sea-36d2.sendconfig.workers.dev:443?flow=&host=square-sea-36d2.sendconfig.workers.dev&path=%2F&security=tls&sni=square-sea-36d2.sendconfig.workers.dev&type=ws#0110 - Универсальный | 20square-sea-36d2.sendconfig | @CID_VPN
-vless://a6e26ac0-644f-0021-8035-e2be0c93ffbb@flp.musicperec.ru:443?flow=xtls-rprx-vision&fp=chrome&pbk=k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw&security=reality&sid=4a1b0c7d&sni=www.amd.com&type=tcp#0111 - Универсальный | 20www.amd | @CID_VPN
-vless://a6e26ac0-644f-0021-8035-e2be0c93ffbb@swp.musicperec.ru:443?flow=xtls-rprx-vision&fp=chrome&pbk=kG6zs_B1ZlZ5kjeC0WWPSz4B60vk_VeWj_WYsl2mGBw&security=reality&sid=0a6b1c9d&sni=www.amd.com&type=tcp#0112 - Универсальный | 20www.amd | @CID_VPN
-vless://b345f1db-e3ac-41c2-b1fa-d7f28d3a49c9@fi.appav.online:2083?flow=&fp=qq&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&security=reality&serviceName=UpdateService&sid=6da16b1335651b38&sni=apple.com&type=grpc#0113 - Универсальный | 20apple.com | @CID_VPN
-vless://b345f1db-e3ac-41c2-b1fa-d7f28d3a49c9@fi.appav.online:2083?flow=&fp=chrome&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&security=reality&serviceName=UpdateService&sid=6da16b1335651b38&sni=apple.com&type=grpc#0114 - Универсальный | 20apple.com | @CID_VPN
-vless://b345f1db-e3ac-41c2-b1fa-d7f28d3a49c9@ru.appav.net:2083?flow=&fp=qq&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&security=reality&serviceName=UpdateService&sid=6da16b1335651b38&sni=goya.rutube.ru&type=grpc#0115 - Универсальный | 20goya.rutube | @CID_VPN
-vless://a6e26ac0-644f-0019-8035-e2be0c93ffbb@brp.perecmus.ru:443?flow=xtls-rprx-vision&fp=chrome&pbk=EXpeJ0XTTDnf9k-qohLwXII9aRAPuwCBu0AsW6uhQVk&security=reality&sid=6a0b1c2d&sni=ads.x5.ru&type=tcp#0116 - Универсальный | x5.ru | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.raw-maple.test-cdn-kkk.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=tradingview.com&type=tcp#0117 - Универсальный | 20tradingview.com | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv162.towersflowerss.com:443?flow=&type=tcp#0118 - Универсальный | 20srv162.towersflowerss | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.bold-stone.test-cdn-kkk.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=tradingview.com&type=tcp#0119 - Универсальный | 20tradingview.com | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv2.towersflowerss.com:443?flow=&type=tcp#0120 - Универсальный | 20srv2.towersflowerss | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv189.towersflowerss.com:65000?flow=&path=%2F&type=ws#0121 - Универсальный | 20srv189.towersflowerss | @CID_VPN
-vless://e679aa5e-fde0-4e9f-ad46-63725e1c47f3@new-de.vcfco.ir:7500?flow=xtls-rprx-vision&fp=chrome&pbk=8a3blVdAACDlvRA5zrdNxHLZ9boU5QkwGMkf0WwyZVI&security=reality&sid=77a3a1c829040294&sni=cdn77.com&type=tcp#0122 - Универсальный | 20cdn77.com | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv192.towersflowerss.com:64534?flow=&path=%2F&type=ws#0123 - Универсальный | 20srv192.towersflowerss | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv190.towersflowerss.com:443?flow=&host=srv190.towersflowerss.com&path=%2F&type=ws#0124 - Универсальный | 20srv190.towersflowerss | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.dry-moose.test-cdn-kkk.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=ads.x5.ru&type=tcp#0125 - Универсальный | x5.ru | @CID_VPN
-vless://97fcac7b-0649-49b4-8263-a5621ffa7de0@nl.normbot.ru:443?flow=xtls-rprx-vision&fp=chrome&pbk=pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U&security=reality&sid=0a8428f5ab26ef5a&sni=nl.normbot.ru&type=tcp#0126 - Универсальный | 20nl.normbot | @CID_VPN
-vless://97fcac7b-0649-49b4-8263-a5621ffa7de0@nl.normbot.ru:443?flow=xtls-rprx-vision&fp=qq&pbk=pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U&security=reality&sid=0a8428f5ab26ef5a&sni=nl.normbot.ru&type=tcp#0127 - Универсальный | 20nl.normbot | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.iron-coral.test-cdn-kkk.com:443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=tradingview.com&type=tcp#0128 - Универсальный | 20tradingview.com | @CID_VPN
-vless://b345f1db-e3ac-41c2-b1fa-d7f28d3a49c9@fr2.appav.net:2083?flow=&fp=chrome&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&security=reality&serviceName=UpdateService&sid=6da16b1335651b38&sni=barclays.co.uk&type=grpc#0129 - Универсальный | 20barclays.co | @CID_VPN
-vless://fc625795-792d-4d9d-9d38-bffe59467d2d@www.visaeurope.ch:2083?flow=&fp=randomized&host=daluan.eu.org&path=%2F%3Fed%3D2560&security=tls&sni=daluan.eu.org&type=ws#0130 - Универсальный | 20daluan.eu | @CID_VPN
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.008500.xyz:443?flow=&fp=chrome&host=powered-by-surena.configfarsi695fcee895881.workers.dev&path=%2F%40OnNetVpn&security=tls&sni=powered-by-surena.configfarsi695fcee895881.workers.dev&type=ws#0131 - Универсальный | 20powered-by-surena.configf... | @CID_VPN
-vless://fc625795-792d-4d9d-9d38-bffe59467d2d@www.visasoutheasteurope.com:2096?flow=&fp=randomized&host=daluan.eu.org&path=%2F%3Fed%3D2560&security=tls&sni=daluan.eu.org&type=ws#0132 - Универсальный | 20daluan.eu | @CID_VPN
-vless://a6e26ac0-644f-45da-8035-e2be0c93ffbb@plp.musicperec.ru:443?flow=xtls-rprx-vision&fp=chrome&pbk=k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw&security=reality&sid=4a1b0c7d&sni=www.amd.com&type=tcp#0133 - Универсальный | 20www.amd | @CID_VPN
-vless://4a244438-8775-43b8-8b5c-4d3bb89d342c@test.wide-frost.test-cdn-kkk.com:8443?flow=xtls-rprx-vision&fp=chrome&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&security=reality&sid=50&sni=tradingview.com&type=tcp#0134 - Универсальный | 20tradingview.com | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv152.towersflowerss.com:64534?flow=&path=%2F&type=ws#0135 - Универсальный | 20srv152.towersflowerss | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv31.towersflowerss.com:443?flow=&path=%2F&type=ws#0136 - Универсальный | 20srv31.towersflowerss | @CID_VPN
-vless://a6e26ac0-644f-45da-8035-e2be0c93ffbb@frp.musicperec.ru:443?flow=xtls-rprx-vision&fp=chrome&pbk=kG6zs_B1ZlZ5kjeC0WWPSz4B60vk_VeWj_WYsl2mGBw&security=reality&sid=8a0b9c6d&sni=www.amd.com&type=tcp#0137 - Универсальный | 20www.amd | @CID_VPN
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv168.towersflowerss.com:443?flow=&path=%2F&type=ws#0138 - Универсальный | 20srv168.towersflowerss | @CID_VPN
-vless://b345f1db-e3ac-41c2-b1fa-d7f28d3a49c9@kz.appav.online:2083?flow=&fp=chrome&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&security=reality&serviceName=UpdateService&sid=6da16b1335651b38&sni=apple.com&type=grpc#0139 - Универсальный | 20apple.com | @CID_VPN
-vless://a6e26ac0-644f-45da-8035-e2be0c93ffbb@usp.musicperec.ru:443?flow=xtls-rprx-vision&fp=chrome&pbk=kG6zs_B1ZlZ5kjeC0WWPSz4B60vk_VeWj_WYsl2mGBw&security=reality&sid=2c5d7e1f&sni=www.amd.com&type=tcp#0140 - Универсальный | 20www.amd | @CID_VPN
-vless://360f1d71-f8dd-4c71-aa4f-347486312dca@hk.chinablog.xyz:8080?flow=xtls-rprx-vision&fp=chrome&pbk=bXstTdAgEyOn8LEMM_K2gIOw7T2iKhr6l-lXcrF4PlM&security=reality&sid=&sni=www.liblib.art&type=tcp#0141 - Универсальный | 20www.liblib | @CID_VPN
+<!DOCTYPE html>
+<!-- Заглушка для анонимных пользователей: отдаётся вместо запрошенной страницы
+     при срабатывании rate limiting (HTTP 429). Токены — светлая тема UI GitVerse. -->
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Лимит запросов для неавторизованных пользователей исчерпан. Войдите в GitVerse, чтобы продолжить.">
+<title>Доступ ограничен — GitVerse</title>
+<style>
+  :root{
+    --bg:#ffffff;
+    --surface:#f5f6f8;
+    --surface-hover:#eef0f3;
+    --border:#e6e8ec;
+    --border-strong:#d8dbe1;
+    --text:#12151a;
+    --text-secondary:#5b6472;
+    --text-muted:#8a929e;
+    --brand:#363b49;
+    --brand-hover:#2a2e3a;
+    --warn-bg:#fdf3e3;
+    --warn-border:#f2e0c2;
+    --warn-text:#8a5a12;
+    --radius-sm:8px;
+    --radius-md:10px;
+    --radius-lg:16px;
+    --shadow-card:0 1px 2px rgba(16,24,40,.04), 0 16px 40px -16px rgba(16,24,40,.14);
+    --focus-ring:0 0 0 3px rgba(54,59,73,.22);
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    min-height:100dvh;
+    display:flex;
+    flex-direction:column;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Inter","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size:15px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
+  /* ── Шапка ───────────────────────────────────────────── */
+  .header{
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    height:64px;
+    padding:0 24px;
+    border-bottom:1px solid var(--border);
+    background:var(--bg);
+  }
+  .brand{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    color:var(--brand);
+    text-decoration:none;
+    border-radius:var(--radius-sm);
+  }
+  .brand:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+  .brand__mark{display:block;width:30px;height:30px;flex:0 0 auto}
+  .brand__name{font-size:18px;font-weight:700;letter-spacing:-.02em}
+  .status-chip{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    height:28px;
+    padding:0 12px;
+    border:1px solid var(--warn-border);
+    border-radius:999px;
+    background:var(--warn-bg);
+    color:var(--warn-text);
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:.01em;
+    white-space:nowrap;
+  }
+  .status-chip__dot{
+    width:6px;height:6px;border-radius:50%;
+    background:currentColor;
+    flex:0 0 auto;
+  }
+  /* ── Контент ─────────────────────────────────────────── */
+  .main{
+    flex:1 1 auto;
+    display:grid;
+    place-items:center;
+    padding:48px 24px;
+    background:
+      radial-gradient(760px 380px at 50% 0%, #f7f8fa 0%, rgba(247,248,250,0) 70%);
+  }
+  .card{
+    width:100%;
+    max-width:520px;
+    padding:40px 36px 36px;
+    text-align:center;
+    background:var(--bg);
+    border:1px solid var(--border);
+    border-radius:var(--radius-lg);
+    box-shadow:var(--shadow-card);
+  }
+  .card__icon{
+    display:grid;
+    place-items:center;
+    width:64px;
+    height:64px;
+    margin:0 auto 22px;
+    border-radius:50%;
+    background:var(--surface);
+    color:var(--brand);
+  }
+  .card__title{
+    margin:0 0 12px;
+    font-size:22px;
+    line-height:1.35;
+    font-weight:600;
+    letter-spacing:-.015em;
+    color:var(--text);
+  }
+  .card__text{
+    margin:0 auto;
+    max-width:42ch;
+    font-size:15px;
+    line-height:1.65;
+    color:var(--text-secondary);
+  }
+  .card__actions{
+    margin-top:28px;
+    display:flex;
+    justify-content:center;
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:168px;
+    min-height:48px;
+    padding:0 32px;
+    border:1px solid transparent;
+    border-radius:var(--radius-md);
+    background:var(--brand);
+    color:#fff;
+    font-size:15px;
+    font-weight:600;
+    font-family:inherit;
+    text-decoration:none;
+    cursor:pointer;
+    transition:background-color .16s ease, transform .06s ease;
+  }
+  .btn:hover{background:var(--brand-hover)}
+  .btn:active{transform:translateY(1px)}
+  .btn:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+  .card__meta{
+    margin:22px 0 0;
+    padding-top:18px;
+    border-top:1px solid var(--border);
+    font-size:12.5px;
+    line-height:1.6;
+    color:var(--text-muted);
+  }
+  .card__meta code{
+    font-family:"JetBrains Mono",Consolas,"Courier New",monospace;
+    font-size:12px;
+    padding:1px 6px;
+    border-radius:4px;
+    background:var(--surface);
+    color:var(--text-secondary);
+  }
+  /* ── Футер ───────────────────────────────────────────── */
+  .footer{
+    flex:0 0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px 24px;
+    padding:16px 24px;
+    border-top:1px solid var(--border);
+    font-size:12.5px;
+    color:var(--text-muted);
+  }
+  .footer__links{display:flex;flex-wrap:wrap;gap:20px}
+  .footer a{
+    color:var(--text-muted);
+    text-decoration:none;
+    border-radius:4px;
+  }
+  .footer a:hover{color:var(--brand);text-decoration:underline}
+  .footer a:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+  @media (max-width:560px){
+    .header{height:56px;padding:0 16px}
+    .status-chip{display:none}
+    .main{padding:32px 16px}
+    .card{padding:32px 22px 28px;border-radius:14px}
+    .card__title{font-size:20px}
+    .btn{width:100%;min-width:0}
+    .footer{flex-direction:column;align-items:flex-start;padding:16px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none !important;animation:none !important}
+  }
+</style>
+</head>
+<body>
+<header class="header">
+    <a class="brand" href="https://gitverse.ru/home" aria-label="GitVerse — на главную">
+    <svg class="brand__mark" viewBox="0 0 30 30" role="img" aria-hidden="true" focusable="false">
+      <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M25.3463 14.7015V14.8195C25.3463 14.9006 25.3537 14.9743 25.3537 15.0555C25.3537 20.6531 20.7287 25.2035 15.0269 25.2035C13.05 25.2035 11.1985 24.6577 9.63476 23.7063C9.44298 23.5957 9.25119 23.4703 9.07416 23.345C6.42606 21.5086 4.7 18.4775 4.7 15.0555C4.7 10.778 7.39236 7.11258 11.1985 5.62283C11.228 5.44583 11.2502 5.27621 11.2871 5.11396C11.3756 4.68621 11.501 4.27321 11.7001 3.94133C11.9067 3.60208 12.2091 3.31446 12.6443 3.20383C13.1606 3.07846 13.6106 3.36608 13.9057 3.64633C14.2228 3.94133 14.5179 4.36908 14.7761 4.81896C14.7982 4.84846 14.8129 4.87796 14.8351 4.90746C14.8941 4.90746 14.9605 4.90746 15.0269 4.90746C16.6423 4.90746 18.1765 5.26883 19.5412 5.92521C19.9542 5.33521 20.3968 4.75258 20.8468 4.27321C21.2303 3.86758 21.6582 3.50621 22.1007 3.28496C22.5655 3.06371 23.0892 2.98258 23.6129 3.21121C24.1956 3.46933 24.498 4.08883 24.6677 4.70096C24.8447 5.34996 24.9185 6.16121 24.9406 7.03146C24.9775 8.41058 24.8669 10.0257 24.712 11.5228C25.0808 12.5185 25.3021 13.5878 25.3463 14.7015ZM24.1661 11.6482C24.1366 11.9727 24.0997 12.2898 24.0628 12.607C23.9522 13.4993 24.0186 14.4286 24.0776 15.3505C24.1219 16.1175 24.1735 16.8845 24.1292 17.622C24.0997 18.1825 24.0112 18.7208 23.8268 19.2371C22.2409 22.4526 18.8994 24.6651 15.0269 24.6651C13.3008 24.6651 11.6854 24.2226 10.2839 23.463C11.4567 22.9615 12.187 22.3641 12.8877 21.7888C13.8098 21.0366 14.6802 20.3286 16.421 19.9303C16.9447 19.8123 17.4463 19.7312 17.911 19.6796C18.9289 19.5763 19.7993 19.6206 20.5075 19.7312C18.7519 18.9421 16.6423 19.1338 14.8277 19.2961C13.7139 19.392 12.7107 19.4878 11.9583 19.333C9.47248 18.8462 7.62102 16.9287 7.62102 16.9287C7.58414 16.8845 7.62102 16.796 7.68003 16.8255C7.68003 16.8255 7.70216 16.8402 7.70954 16.8402C7.77593 16.8697 7.9087 16.9361 8.09311 17.0172C8.32177 17.1205 8.6242 17.2532 8.97089 17.3933C9.86343 17.7473 11.051 18.1456 11.9583 18.1677C12.7549 18.1898 13.3082 18.1382 13.8171 17.9833C14.3113 17.8358 14.7613 17.5925 15.3588 17.2237C15.4252 17.1868 15.4916 17.15 15.5506 17.1057C15.5727 17.0983 15.5875 17.0836 15.6096 17.0762C15.6096 17.0762 15.5653 17.0246 15.5358 17.032C15.4768 17.0467 15.403 17.0762 15.3145 17.1057C14.8351 17.2975 13.8466 17.6736 11.9583 17.386C10.3281 17.1352 8.81599 16.4051 8.10048 16.029C7.86444 15.9036 7.70954 15.6676 7.68003 15.4095C7.67266 15.38 7.67266 15.3505 7.67266 15.3136L7.65791 14.9301V14.8637C7.65791 14.8416 7.66528 14.8268 7.68003 14.8121L8.66846 14.0008C8.93401 13.787 9.11842 13.492 9.19956 13.1675L9.30283 12.7692C9.31758 12.6955 9.31758 12.6291 9.30283 12.5627C9.25857 12.3488 9.06678 12.1792 8.82336 12.1866H8.74222C8.07836 12.2013 7.42186 12.0465 6.83176 11.7293L11.8255 11.663C12.0247 11.663 12.2091 11.5892 12.3566 11.4712L15.0269 9.24396C15.5948 8.77196 16.3251 8.50646 17.0775 8.50646H18.42C18.6486 8.19671 18.892 7.82058 19.1576 7.42233C19.3346 7.15683 19.5117 6.88396 19.6961 6.61108C19.7625 6.51521 19.8362 6.40458 19.91 6.30133C21.0164 4.71571 22.2925 3.19646 23.399 3.68321C24.5497 4.18471 24.5497 7.42971 24.2768 10.542L24.1661 11.6482ZM24.5644 12.9241C24.5644 12.9388 24.5718 12.9536 24.5718 12.9683C24.5718 12.9831 24.5644 13.0052 24.5571 13.02C24.5571 12.9905 24.5644 12.9536 24.5644 12.9241ZM14.245 4.92958C13.7581 4.14046 13.2418 3.58733 12.7697 3.70533C12.2017 3.84546 11.9214 4.50921 11.7591 5.42371C11.7296 5.63021 11.6854 5.98421 11.678 6.02108C11.6116 6.65533 11.5747 7.37071 11.5452 8.09346C11.5305 8.36633 11.5231 8.63921 11.5083 8.91208C11.5083 8.94896 11.501 8.97846 11.501 9.01533C11.4936 9.14808 11.4862 9.28083 11.4788 9.40621C11.4788 9.42833 11.4788 9.45046 11.4715 9.47258C11.4862 9.50946 11.5305 9.53896 11.5674 9.51683L12.7549 8.62446C13.3819 8.15983 14.1417 7.90908 14.9236 7.90908H15.1301L15.5801 7.91646C15.5211 7.74683 15.4621 7.57721 15.3957 7.40021C15.1596 6.77333 14.8646 6.07271 14.5326 5.45321L14.245 4.92958ZM22.3884 10.2617C22.2925 10.6452 22.2261 10.8886 22.2261 10.8886L21.9458 10.5493C21.9016 10.4977 21.8573 10.4387 21.8131 10.3871C21.3484 9.82658 20.8099 9.32508 20.2124 8.89733C20.2124 8.89733 20.4411 8.46958 20.773 7.96808C21.3041 7.16421 22.086 6.16121 22.6023 6.31608C23.2367 6.51521 22.6835 9.05958 22.3884 10.2617ZM11.8772 11.0213L14.8129 8.71296C14.8498 8.68346 14.8719 8.66133 14.8941 8.63921C14.9826 8.52121 14.8867 8.44746 14.8424 8.44746C14.7613 8.44746 14.6875 8.45483 14.6138 8.45483C14.54 8.46221 14.4736 8.46958 14.4072 8.48433C14.3482 8.49171 14.2818 8.50646 14.2155 8.52121C13.8688 8.60233 13.5442 8.75721 13.2565 8.97846L10.4314 11.1246H11.5821C11.6854 11.1246 11.796 11.0877 11.8772 11.0213ZM15.3072 10.9697C14.9973 11.1541 14.7834 11.486 14.7687 11.8695C14.7613 11.9727 14.7761 12.076 14.7982 12.1718C14.9088 12.6512 15.3367 13.02 15.8604 13.0421H15.912C16.5169 13.0421 17.0185 12.5701 17.048 11.9727C17.0553 11.8621 17.0406 11.7588 17.0185 11.6556C16.5169 11.2426 15.9415 11.0582 15.3072 10.9697ZM6.49982 14.5466C6.49982 14.5318 6.49982 14.5245 6.49982 14.5097V13.9566L7.00141 14.6056V15.9847C6.71374 15.6086 6.54408 15.1661 6.5072 14.7015C6.49982 14.672 6.49982 14.6425 6.49982 14.613C6.49982 14.5908 6.49982 14.5613 6.49982 14.5466Z"/>
+    </svg>
+    <span class="brand__name">GitVerse</span>
+  </a>
+  <span class="status-chip">
+    <span class="status-chip__dot" aria-hidden="true"></span>
+    429 · лимит запросов
+  </span>
+</header>
+<main class="main">
+  <section class="card" aria-labelledby="stub-title" aria-describedby="stub-text">
+    <div class="card__icon" aria-hidden="true">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+        <rect x="4" y="10.5" width="16" height="10.5" rx="2.5"/>
+        <path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/>
+        <circle cx="12" cy="15.8" r="1.2" fill="currentColor" stroke="none"/>
+      </svg>
+    </div>
+    <h1 class="card__title" id="stub-title">Доступно после входа</h1>
+    <p class="card__text" id="stub-text">
+      Превышен лимит запросов, доступных неавторизованным пользователям.
+      Войдите в аккаунт GitVerse, чтобы продолжить работу без ограничений.
+    </p>
+    <div class="card__actions">
+      <a class="btn" href="https://gitverse.ru/signin">Вход</a>
+    </div>
+    <p class="card__meta">
+      Код ответа: <code>429 Too Many Requests</code><br>
+      Ограничение действует только для анонимных запросов
+    </p>
+  </section>
+</main>
+<footer class="footer">
+  <span>2026 © Все права защищены</span>
+  <nav class="footer__links" aria-label="Правовая информация">
+    <a href="https://gitverse.ru/files/politika-konfidencialnosti.pdf">Политика конфиденциальности</a>
+    <a href="https://gitverse.ru/files/polzovatelskoe-soglashenie.pdf">Пользовательское соглашение</a>
+  </nav>
+</footer>
+</body>
+</html>
