@@ -6,7 +6,7 @@
 
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
 # ---> Comment: 🦈 wlBypass [wlrus.lol] >>> by 4qLA---
-# ---> Update: 16:00:51 [GMT+0500] | 24.11.2026
+# ---> Update: 16:30:41 [GMT+0500] | 24.11.2026
 # ---> Source: None
 # ---> RAW: gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
 # #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ####
@@ -17,3 +17,10 @@ vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#shark.qla
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🌐🛡️wlBypass [wlrus.lol]
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?security=none#🟣🦈БЕЛЫЕ СПИСКИ НИЖЕ🦈🟣
 
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
